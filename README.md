@@ -1,6 +1,6 @@
 # Voronoi-Mesh Generator
 
-This C++ program generates a Voronoi mesh. The program takes a set of points as input and generates a Voronoi diagram, which is a partitioning of a plane into regions based on the distance to points in a specific subset of the plane. The Voronoi diagram is then used to create a mesh, which is a collection of vertices, edges, and faces that define a 2D object. 
+This C++ program generates a Voronoi mesh using Voronoi cells, Delaunay triangulation, and the Maximal Poisson-Disk Sampling problem. The program takes a set of points as input and generates a Voronoi diagram, which is a partitioning of a plane into regions based on the distance to points in a specific subset of the plane. The Voronoi diagram is then used to create a mesh, which is a collection of vertices, edges, and faces that define a 2D object.
 
 It can make Voronoi mesh for any shape and separate it into domains while decreasing the time complexity and magnitude of memory used
 compared to commonly used techniques. 🦄
